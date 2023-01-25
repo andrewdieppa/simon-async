@@ -1,0 +1,14 @@
+{
+  "name": "assa",
+  "version": "1.0.0",
+  "description": "Simon Says game built with vanilla JS",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Andrew Dieppa",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.6.0"
+  }
+}
