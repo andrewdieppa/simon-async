@@ -195,7 +195,27 @@ body {
     transform: translate(-50%, -50%) scale(75%);
   }
 
-  .info-text {
+  .info-text,
+  .btn-speed {
     font-size: 2rem;
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+
+  .header,
+  .sub-header,
+  .speed-btn-container {
+    width: 100vh;
+  }
+
+  .simon,
+  .info-text,
+  .score {
+    left: 50vh;
   }
 }
